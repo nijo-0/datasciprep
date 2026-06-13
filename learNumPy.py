@@ -1,5 +1,3 @@
 import numpy as np
-list = [2,5,3,85]
-array = np.array(list)
-print(array + 10)
-print([x+10 for x in list])
+nparr=np.array([[[1,2,34,31],[2,34,81,11],[21,83,67,34]],[[4,13,46,176],[12,989,45,213],[124,55,51,135]]])
+print(nparr.shape)
